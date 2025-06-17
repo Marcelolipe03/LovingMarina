@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
+  titleElement.innerHTML = "Perfeito!! Te vejo as 20h <3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -43,11 +43,11 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "Are you sure?",
-    "Pookie please",
-    "Don't do this to me :(",
-    "You're breaking my heart",
-    "I'm gonna cry...",
+    "Tem certeza?",
+    "Eu, você e duas gatinhas",
+    "Pra se esquentar nesse frio",
+    "Dormiria contigo todos os dias",
+    "Quinta então...?",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
